@@ -53,7 +53,7 @@ header nav{
   font-family:helvetica;
   text-align: center;
 }
-nav:Hover{
+nav a:hover{
     color: orange;
 }
 

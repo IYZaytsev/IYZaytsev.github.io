@@ -53,6 +53,9 @@ header nav{
   font-family:helvetica;
   text-align: center;
 }
+nav:Hover{
+    color: orange;
+}
 
 header a {
   padding: 0 20px;

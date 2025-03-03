@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rabbit Care Instructions</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <!-- Language Toggle -->
-<div class="language-toggle">
-  <img src="united-states.png" alt="English" onclick="toggleLanguage('en')" class="flag-icon">
-  <img src="russia.png" alt="Russian" onclick="toggleLanguage('ru')" class="flag-icon">
-</div>
 
   <header>
-    <h1 id="site-title">Rabbit Care Instructions</h1>
+    <div class="header-content">
+      <h1 id="site-title">Rabbit Care Instructions</h1>
+    </div>
   </header>
 
   <main>
@@ -26,24 +25,61 @@
         <li><a href="articles.html">Helpful Articles</a></li>
       </ul>
     </nav>
+    
+    <div class="care-images">
+      <img src="ghost.png" alt="Ghost the Rabbit" class="rabbit-img" id="ghost-img">
+      <img src="rat.png" alt="Rat the Rabbit" class="rabbit-img" id="rat-img">
+    </div>
 
     <!-- Daily Health Checklist -->
     <section id="checklist">
       <h2 id="checklist-title">Daily Health Checklist</h2>
       <ul>
-        <li><input type="checkbox" id="check-1" class="check-item"><label for="check-1" id="checklist-item-1">Check if the rabbit is eating and drinking.</label></li>
-        <li><input type="checkbox" id="check-2" class="check-item"><label for="check-2" id="checklist-item-2">Ensure the rabbit’s litter box is clean.</label></li>
-        <li><input type="checkbox" id="check-3" class="check-item"><label for="check-3" id="checklist-item-3">Inspect the rabbit’s fur for any signs of mats or parasites.</label></li>
-        <li><input type="checkbox" id="check-4" class="check-item"><label for="check-4" id="checklist-item-4">Check for any signs of distress or unusual behavior.</label></li>
-        <li><input type="checkbox" id="check-5" class="check-item"><label for="check-5" id="checklist-item-5">Ensure the rabbit has enough space to hop and stretch.</label></li>
+        <li><input type="checkbox" id="check-1" class="check-item"><label for="check-1" id="checklist-item-1">Check
+            water bottle or bowl. Ensure it’s full, clean, and functional. Periodically refresh water (dump old water in
+            the sink and replace with fresh water)</label></li>
+        <li><input type="checkbox" id="check-2" class="check-item"><label for="check-2" id="checklist-item-2">Ensure
+            they have plenty of hay (unlimited supply), refil the hay dispenser (as full as possible). Add an additional
+            handful of hay directly to the litter box, in front of the hay dispenser.</label></li>
+        <li><input type="checkbox" id="check-3" class="check-item"><label for="check-3" id="checklist-item-3">Lightly
+            pack each bowl with romaine lettuce. Wash and rinse the lettuce before serving. Add one scope of pellets to
+            each bowl.</label></li>
+        <li><input type="checkbox" id="check-4" class="check-item"><label for="check-4" id="checklist-item-4">Make sure
+            they are active, hopping around, and eating normally. Ensure they are not lethargic or hiding excessively.
+            Rabbits should run to you when you have food.</label></li>
+        <li><input type="checkbox" id="check-5" class="check-item"><label for="check-5" id="checklist-item-5">Ensure the living environment is at a safe temperature (between 60-70°F) and free from drafts or heat sources.</label></li>
+        <li><input type="checkbox" id="check-6" class="check-item"><label for="check-6" id="checklist-item-6">Examine your rabbit's eyes and ears for any signs of discharge, redness, or infection.</label></li>
+        <li><input type="checkbox" id="check-7" class="check-item"><label for="check-7" id="checklist-item-7">Check your rabbit’s poops to ensure they are healthy. Look for small, firm, round pellets. If they are soft, watery, or absent, consult a vet immediately.</label></li>
       </ul>
     </section>
+    <section id="general-care">
+      <h2>General Rabbit Care Tips</h2>
+      <p>Rabbits require a balanced diet, regular exercise, and proper grooming. Here’s what you need to know:</p>
+      <h3>Diet</h3>
+      <p>Rabbits should have unlimited access to fresh hay, such as timothy hay. Fresh vegetables, like leafy greens, should be added to their diet daily. Pellets are also necessary but should be limited to avoid obesity.</p>
+      <h3>Exercise</h3>
+      <p>Rabbits are active animals and need plenty of space to hop and explore. Set up a safe area for them to play and exercise for at least a few hours a day.</p>
+      <h3>Grooming</h3>
+      <p>Rabbits are naturally clean, but they need regular grooming. Long-haired breeds especially require frequent brushing to prevent matting. Check their nails monthly and trim them as necessary.</p>
+    </section>
+    <section id="health-issues">
+      <h2>Common Rabbit Health Issues</h2>
+      <p>While rabbits are generally healthy, they can develop certain issues. Here are some common health problems to watch out for:</p>
+      <ul>
+        <li><strong>Gastrointestinal Stasis:</strong> A decrease in gut motility; symptoms include loss of appetite, lethargy, and reduced fecal output. Seek immediate veterinary care.</li>
+        <li><strong>Dental Issues:</strong> Rabbits' teeth grow continuously. Look for signs of drooling, difficulty eating, or weight loss.</li>
+        <li><strong>Urinary Tract Problems:</strong> Watch for changes in urination habits, including blood in the urine or frequent urination.</li>
+      </ul>
+    </section>
+    
   </main>
 
   <footer>
-    <p>&copy; 2025 Rabbit Care. All Rights Reserved.</p>
+    <p>Thank you for visiting Rabbit Care Instructions!</p>
   </footer>
+  
 
   <script src="scripts.js"></script>
 </body>
+
 </html>

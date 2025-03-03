@@ -63,3 +63,12 @@ footer {
   margin-top: 20px;
   font-size: 0.9em;
 }
+
+/* Checklist Styling */
+.check-item {
+  margin-right: 10px;
+}
+
+.check-item + label {
+  cursor: pointer;
+}

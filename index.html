@@ -1,35 +1,58 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <title>IvanYZaytsevNC</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbit Care Instructions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Language Toggle -->
+  <div class="language-toggle">
+    <button onclick="toggleLanguage('en')">English</button>
+    <button onclick="toggleLanguage('ru')">Russian</button>
+  </div>
 
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="main.css" />
+  <header>
+    <h1 id="site-title">Rabbit Care Instructions</h1>
+  </header>
 
+  <main>
+    <!-- Daily Health Checklist -->
+    <section id="checklist">
+      <h2 id="checklist-title">Daily Health Checklist</h2>
+      <ul>
+        <li id="checklist-item-1">Check if the rabbit is eating and drinking.</li>
+        <li id="checklist-item-2">Ensure the rabbit’s litter box is clean.</li>
+        <li id="checklist-item-3">Inspect the rabbit’s fur for any signs of mats or parasites.</li>
+        <li id="checklist-item-4">Check for any signs of distress or unusual behavior.</li>
+        <li id="checklist-item-5">Ensure the rabbit has enough space to hop and stretch.</li>
+      </ul>
+    </section>
 
-  </head>
+    <!-- Vet Contact Section -->
+    <section id="contact">
+      <h2 id="contact-title">Contact Vet</h2>
+      <p id="contact-info">For any health concerns, contact our vet:</p>
+      <p id="vet-phone">Phone: +1 123-456-7890</p>
+      <p id="vet-email">Email: vet@example.com</p>
+    </section>
 
-  <body>
-    <header class="container">
+    <!-- Links to Common Rabbit Articles -->
+    <section id="articles">
+      <h2 id="articles-title">Helpful Rabbit Articles</h2>
+      <ul>
+        <li><a href="https://www.rabbit.org/care/" target="_blank" id="article-1">Rabbit Care Guide</a></li>
+        <li><a href="https://www.petmd.com/rabbit" target="_blank" id="article-2">PetMD - Rabbit Care</a></li>
+        <li><a href="https://www.thesprucepets.com/rabbit-care-1238460" target="_blank" id="article-3">The Spruce Pets - Rabbit Care</a></li>
+      </ul>
+    </section>
+  </main>
 
-        <h1 class="Title">Ivan Zaytsev</h1>
-        <nav class="navigation">
-          <a href="https://github.com/IYZaytsev">Github</a>
-          <a href="resume.pdf">Resume</a>
-          <a href="#">about</a>
-          <a href="#">contact</a>
-          </nav>
-      </header>
-      <main id = "main">
-        <article>
-          <header class="HeaderForContent">Welcome to my Site!</header>
-          <section class= "content">
+  <footer>
+    <p>&copy; 2025 Rabbit Care. All Rights Reserved.</p>
+  </footer>
 
-              <p class="summary"> Thank you for taking the time to checkout my site, while you are here make sure to check out my gitHub as well</p>
-          </section>
-
-        </article>
-      </main>
-    </body>
-
+  <script src="scripts.js"></script>
+</body>
 </html>
